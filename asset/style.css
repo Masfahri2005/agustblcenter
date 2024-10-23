@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h4, h5, h3 {
+  color: #343a40;
+}
+
+/* Header */
+header {
+  background-color: #faf6f6;
+  color: white;
+  padding: 20px 0;
+}
+
+header h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+header h5 {
+  font-size: 20px;
+}
+
+/* Main Container */
+main {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Section */
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #e9ecef;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+}
+
+.card h5 {
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Alert Section */
+.alert {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Text Centered Section */
+.text-center p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #6c757d;
+}
+
+/* Feature Section */
+.feature-section h4 {
+  font-size: 20px;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.feature-section p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.feature-section img {
+  margin-right: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  header h4 {
+    font-size: 20px;
+  }
+
+  header h5 {
+    font-size: 18px;
+  }
+}
